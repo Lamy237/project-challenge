@@ -24,9 +24,9 @@ Users should be able to:
 - View the color name in container while typing
 - View the hex code of the set color
 
-### Screenshot
+### Demo Video
 
-![solution screenshot](images/solution-screenshot.png)
+![demo](https://user-images.githubusercontent.com/89041260/201475085-71070f0c-334f-4561-a29c-7cda0ae34810.gif)
 
 ### Links
 
