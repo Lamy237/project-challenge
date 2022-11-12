@@ -8,7 +8,7 @@ This is my solution to the [React project challenge](https://www.youtube.com/wat
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
+    - [Demo Video](#demo-video)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
