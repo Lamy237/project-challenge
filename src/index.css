@@ -1,0 +1,80 @@
+/* || RESET */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* || UTILITY CLASSES */
+.offscreen {
+  position: absolute;
+  left: -625rem;
+}
+
+/* || GENERAL STYLES */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square,
+.colorForm input[type="text"] {
+  border-radius: 0.625rem;
+  border-color: #000;
+  font-size: 1.25rem;
+}
+
+.square {
+  width: min(100% - 1.5625rem, 21.875rem);
+  min-height: 21.875rem;
+  border: 0.0625rem solid #000;
+  margin-bottom: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square p {
+  text-align: center;
+}
+
+.colorForm {
+  width: min(100% - 1.5625rem, 21.875rem);
+}
+
+.colorForm input[type="text"] {
+  width: 100%;
+  min-height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+}
+
+.colorForm button {
+  width: 100%;
+  min-height: 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.25rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
